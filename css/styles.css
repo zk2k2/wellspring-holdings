@@ -1,0 +1,365 @@
+/* Reset */
+*{
+  margin: 0;
+  padding: 0;
+box-sizing: border-box;
+}
+
+/* Navbar */
+#navbar{
+
+position: sticky;
+top: 0;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+background: #333;
+z-index:1;
+}
+
+.logo{
+  color: #3AB0FF;
+font-family: 'Roboto';
+margin: 1rem;
+}
+
+.logo a{
+  text-decoration: none;
+  color: #3AB0FF;
+}
+
+.logo span{
+  color: white;
+  } 
+
+
+
+#navbar ul{
+  display: flex;
+  align-items: center;
+  list-style: none;
+  height: 2rem;
+  
+  }
+
+  #navbar ul li a{
+    text-decoration: none;
+    padding:1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+
+       }
+
+       #navbar ul li a:hover{
+        background: #3AB0FF;
+        height: max-content;
+        border-radius: 0.25rem;
+       
+        
+       }
+
+       /* Showcase */
+       .main_text{
+        color: white;
+        font-family: 'Roboto';
+        text-align: center;
+        font-size: 3rem;
+       
+
+       }
+       #showcase{
+        background:url(../img/background.jpg) no-repeat center center/cover;
+       position: 1;
+       height: 100vh;
+    
+       }
+
+       #showcase_content{
+        background-color: rgb(0, 0, 0, 0.4);
+        height: 100%;
+        text-align: center;
+        color: white;
+       font-family: 'Roboto';
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+      position: 0;
+      align-items: center;
+     
+       }
+       #showcase_content p{
+        padding-bottom: 2rem;
+       }
+
+       #showcase_content .main_text{
+        padding: 1.2rem;
+        
+       }
+
+      .btn{
+     display: flex;
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+      flex-direction: column;
+background-color: #3AB0FF;
+font-family: 'Raleway';
+
+width: 8rem;
+height: 3rem;
+color: white;
+text-decoration: none;
+
+justify-items: center;
+
+       }
+.main_text_lite{
+  color: white;
+  padding: 1.5rem;
+  font-size: 4rem;
+}
+       /* Services */
+
+       #what{
+        background-color: white;
+       }
+#what h2{
+  display: block;
+  text-align: center;
+  padding-top: 1vw;
+  padding-bottom: 2vw;
+  font-size: 2.5rem;
+}
+
+#what{
+  padding-bottom: 3vw;
+}
+
+       #services{
+        display: flex;
+       justify-content: space-around;
+       text-align: center;
+
+
+       }
+
+       .main_text{
+       font-family: 'Roboto';
+       font-size: 2vw;
+       color: #333;
+
+       }
+
+       #what span{
+        color: #3AB0FF;
+       }
+       #services i{
+        color: #333;
+        background-color: #3AB0FF;
+        border-radius: 50%;
+        font-size: 2vw;
+        padding: 1.5vw;
+        margin: 2vw;
+
+       }
+      
+       .box h3{
+        font-family: 'Roboto';
+        font-size: 1.5vw;
+        margin-bottom: 1.5rem;
+       }
+
+      .box{
+        flex: 1;
+        margin-bottom: 1rem;
+      }
+
+      .box p{
+        font-family: 'Roboto';
+        font-size: 1rem;
+      }
+
+    #who{
+      display: flex;
+
+    }
+
+    #who div{
+      flex:1;
+    }
+
+   
+
+    #img{
+      flex:1;
+     background: url('../img/team.jpg') center center/cover;
+     height: 30rem;
+ 
+    }
+
+    #team{
+background: #333;
+color: white;
+font-family: 'Roboto';
+height: 30rem;
+    }
+    #team p{
+     padding: 1rem;
+          }
+
+    #team h2{
+      padding: 1rem;
+      font-size: 2rem;
+      background: #333;
+      color: white;
+          }
+
+          #team h2 span{
+           color: #3AB0FF;
+                }
+
+                #team ul{
+                 list-style: none;
+                
+                 padding-left: 2rem;
+                 line-height: 2rem;
+                 height: fit-content;
+                }
+
+                #team ul span{
+                 font-style: italic;
+                 }
+                 
+/* Companies  */
+
+#clients{
+  padding-bottom: 3rem;
+}
+#clients span{
+  color:#3AB0FF;
+}
+
+#clients h3{
+  font-size: 2.5rem;
+  padding: 2rem;
+}
+                 #companies{
+                  display: flex;
+                  justify-content: space-around;
+                  align-items: center;
+            
+                 }
+                 #companies img{
+                  width: 10rem;
+                 }
+
+               #burgerking img{
+                width: 8rem;
+               }
+
+               #bmw img{
+                width: 8rem;
+               }
+                 #companies div{
+                 flex-direction: row;
+                 }
+
+                 /* Form */
+                 input{
+                  display: block;
+                 }
+                
+                
+
+               #form_map{
+                background-color: white;
+              
+
+               }
+
+               .form{
+                background-color: #3AB0FF;
+                flex: 1;
+          
+               }
+
+               .form h3{
+                margin-top: 1REM;
+               }
+               
+                 #form_map .container{
+                  
+                  display: flex;
+                 }
+
+                 form{
+    
+                  margin-left: 2rem;
+                  margin-right: 2rem;
+                 }
+
+                 #form_map h3{
+                  color: white;
+                  font-family: 'Roboto Light';
+                  margin-left: 2rem;
+                  font-size: 2rem;
+
+
+                 }
+
+                 form input{
+
+                  width: 30rem;
+                  height: 2rem;
+                 margin-bottom: 1rem;
+                 margin-top: 0.25rem;
+                 border: gainsboro 1px solid;
+                 border-radius: 5px;
+                 font-family: 'Roboto';
+                 }
+
+                 form label{
+                  color: white;
+                  font-family: 'Roboto';
+                  margin-top: 4rem;
+                 }
+
+                 form textarea{
+                  width: 30rem;
+                  margin-bottom: 1rem;
+                 border: gainsboro 1px solid;
+                 border-radius: 5px;
+                 height: 4rem;
+                 margin-top: 0.25rem;
+                 }
+
+                 form button{
+                  width: 30rem;
+                  height: 2rem;
+                 margin-bottom: 1rem;
+                 margin-top: 0.25rem;
+                 background-color: #333;
+                 font-family: 'Roboto';
+                 color:white ;
+                 }
+
+                 .map{
+                  flex: 2;
+                 }
+
+footer .container{
+  display: flex;
+  background-color: #333;
+  height: 4rem;
+  text-align: center;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Roboto';
+}
+
+
+
+                 
+
